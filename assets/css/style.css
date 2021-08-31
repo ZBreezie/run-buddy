@@ -151,11 +151,8 @@ section {
     font-size: 16px;
 }
 
-.intro {
+.intro p {
     text-align: center;
-}
-
-.intro p{
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
@@ -164,16 +161,16 @@ section {
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -210,7 +207,6 @@ section {
 }
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -240,6 +236,10 @@ section {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3{
     font-size: 32px;
     margin-bottom: 8px;
@@ -260,7 +260,6 @@ section {
 
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
